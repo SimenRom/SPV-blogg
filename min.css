@@ -1,7 +1,7 @@
 div.wrapper {
 	--display: block;
-	max-width: 75%;
-	--min-width: 75%;
+	width: 50%;
+	min-width: 400px;
 	border: 2px solid black;
 	--outline: #4CAF50 solid 10px;
 	margin: auto;
