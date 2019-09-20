@@ -6,4 +6,8 @@ div.wrapper {
 	--outline: #4CAF50 solid 10px;
 	margin: auto;
 	padding: 10px;
+	background-color: white;
+}
+body {
+  background-color: rgb(196, 0, 0);
 }
