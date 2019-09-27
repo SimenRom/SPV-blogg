@@ -4,11 +4,50 @@ div.wrapper {
 	min-width: 400px;
 	border: 2px solid black;
 	--outline: #4CAF50 solid 10px;
-	margin: auto;
+	margin-left: 150px;
 	padding: 10px;
 	background-color: white;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 body {
   background-color: rgb(196, 0, 0);
+}
+
+/* The sidebar menu */
+.sidenav {
+  --height: 100%; /* Full-height: remove this if you want "auto" height */
+  --width: 10%; /* 160px Set the width of the sidebar */
+  min-width: 130px;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  --z-index: 1; /* Stay on top */
+  top: 10px; /* Stay at the top */
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  --padding: 50px;
+  border: solid black 1px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  text-decoration: underline;
+}
+.sidenav h2 {
+	padding: 6px 8px 6px 16px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
