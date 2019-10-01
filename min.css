@@ -16,6 +16,7 @@ body {
 div.innlegg {
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	background-color: #fff0f0;
+	margin-top: 30px;
 }
 
 /* The sidebar menu */
