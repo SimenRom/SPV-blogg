@@ -22,6 +22,7 @@ div.innlegg {
 
 /* The sidebar menu */
 .sidenav {
+  text-align: right;
   --height: 100%; /* Full-height: remove this if you want "auto" height */
   --width: 10%; /* 160px Set the width of the sidebar */
   min-width: 130px;
@@ -32,7 +33,7 @@ div.innlegg {
   background-color: rgba(196, 0, 0, 0.8); /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   --padding: 50px;
-  border: solid black 1px;
+  --border: solid black 1px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
