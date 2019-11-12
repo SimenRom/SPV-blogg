@@ -2,7 +2,7 @@ div.wrapper {
 	--display: block;
 	width: 70%;
 	min-width: 400px;
-	border: 2px solid black;
+	--border: 2px solid black;
 	--outline: #4CAF50 solid 10px;
 	margin-left: 230px;
 	padding: 10px;
@@ -15,7 +15,7 @@ body {
 }
 div.innlegg {
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-	background-color: #fff9f9;
+	background-color: white;
 	margin-top: 30px;
 	padding: 10px;
 }
