@@ -14,7 +14,7 @@ body {
   background-color: rgb(243, 243, 243);
 }
 div.innlegg {
-	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	
 	background-color: white;
 	margin-top: 30px;
 	padding: 10px;
@@ -33,6 +33,7 @@ div.innlegg {
   overflow-x: hidden; /* Disable horizontal scroll */
   --padding: 50px;
   border: solid black 1px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 /* The navigation menu links */
