@@ -1,18 +1,39 @@
 div.wrapper {
-	--display: block;
-	width: 70%;
+	width: 75%;
 	min-width: 400px;
 	--border: 2px solid black;
 	--outline: #4CAF50 solid 10px;
-	margin-left: 230px;
+	margin-left: 290px;
 	padding: 5px;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color: rgb(248, 248, 248);
+	background-color: rgba(248, 248, 248, 0.95);
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 body {
-  background-color: rgb(243, 243, 243);
+	background-color: rgb(243, 243, 243);
+  	font-family: Garamond, Perpetua, Copperplate, "Lucida Bright", Verdana, Robot, Arial, "Times New Roman";
+	background-image: url("bakgrunn.jpg");
+	--filter: blur(8px);
+	height:100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	
+	background-color: rgba(248, 248, 248, 0.9);
+	
+}
+.bg-image {
+	background-image: url("bakgrunn.jpg");
+	filter: blur(8px);
+	--height:100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	
+	background-color: rgba(248, 248, 248, 0.9);
 }
 div.innlegg {
 	
@@ -23,7 +44,8 @@ div.innlegg {
 
 /* The sidebar menu */
 .sidenav {
-  text-align: right;
+  text-decoration: none;
+  text-align: left;
   --height: 100%; /* Full-height: remove this if you want "auto" height */
   --width: 10%; /* 160px Set the width of the sidebar */
   min-width: 130px;
@@ -37,20 +59,22 @@ div.innlegg {
   --padding: 50px;
   --border: solid black 1px;
   --box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  color: white;
+  text-shadow: 0 0 3px #000000;
 }
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  --padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: black;
+  font-size: 20px;
+  color: white;
+  -text-shadow: 0 0 3px #000000;
   display: block;
-  text-decoration: underline;
 }
-.sidenav h2 {
-	padding: 6px 8px 6px 16px;
-	color: black;
+.sidenav h3 {
+	padding-left: 16px;
+	--color: black;
 }
 
 /* When you mouse over the navigation links, change their color */
