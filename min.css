@@ -15,7 +15,7 @@ body {
   	font-family: Garamond, Perpetua, Copperplate, "Lucida Bright", Verdana, Robot, Arial, "Times New Roman";
 	background-image: url("bakgrunn.jpg");
 	--filter: blur(8px);
-	height:100%;
+	height:140%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
